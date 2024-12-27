@@ -1,6 +1,6 @@
 import { Place, Location } from '@/types';
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyAB3wHoQlfaMNu_sBlXuEncWQzW2uBLUuU';
+const GOOGLE_MAPS_API_KEY = '******************************';
 const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
 
 export async function searchPlaces(query: string): Promise<Location> {
